@@ -12,14 +12,27 @@
   --color-formInputBackgroundSelected: #FFF1EA;
   --color-formInputTextPlaceholder: #9E9990;
 
-  /* --- BUDGET SPECIFIC HEADERS & COLUMNS --- */
-  /* This ensures the 'off-month' columns match the main row color */
+  /* --- MOBILE NAVIGATION (WARM & HIGH CONTRAST) --- */
+  --color-mobileHeaderBackground: #F35B16; 
+  --color-mobileHeaderText: #FFFFFF;
+  --color-mobilePageBackground: #F9F7F2;
+  --color-mobileNavBackground: #FFFEFC;
+  
+  /* Inactive States: Warmer Taupe for Text and SVGs */
+  --color-mobileNavItem: #8B867E; 
+  --color-mobileNavText: #8B867E; 
+  
+  /* Active States: High Contrast Flamingo Orange */
+  --color-mobileNavTextSelected: #FFFFFF; 
+  --color-mobileNavItemSelected: #F35B16; 
+  --color-mobileAccountShadow: rgba(60, 50, 30, 0.12);
+
+  /* --- BUDGET SPECIFIC --- */
   --color-budgetOtherMonth: #FFFEFC; 
   --color-budgetHeaderCurrentMonth: #F1ECE3; 
   --color-budgetHeaderOtherMonth: #F1ECE3;
   --color-tableRowHeaderBackground: #F1ECE3; 
   --color-tableHeaderBackground: #F1ECE3;
-  --color-tableHeaderText: #4B5563;
 
   /* --- SIDEBAR & ACCENTS --- */
   --color-sidebarBudgetName: #22201D; 
@@ -32,7 +45,7 @@
   /* --- PILLS & TAGS --- */
   --color-pillTextHighlighted: #F35B16; 
   --color-pillBackgroundHighlighted: #FFF1EA;
-  --color-pillText: #4B5563;
+  --color-pillText: #726E66;
   --color-pillBackground: #EAE5DB;
 
   /* --- INTERACTIVE HIGHLIGHTS --- */
@@ -48,13 +61,6 @@
   --color-tableRowBackgroundSelected: #FFF1EA;
   --color-tableRowBackgroundHighlight: #FFF1EA;
   --color-tableBorder: #EDE7DE; 
-
-  /* --- MOBILE BRANDING --- */
-  --color-mobileHeaderBackground: #F35B16; 
-  --color-mobileHeaderText: #FFFFFF;
-  --color-mobilePageBackground: #F9F7F2;
-  --color-mobileNavBackground: #FFFEFC;
-  --color-mobileNavTextSelected: #F35B16;
 
   /* --- BRAND COLORS --- */
   --color-buttonPrimaryBackground: #F35B16;
