@@ -1,40 +1,56 @@
 :root {
-  /* --- CRITICAL CONTRAST FIXES --- */
-  --color-sidebarBudgetName: #22201D; /* Monarch Dune - Dark Charcoal */
-  --color-pageText: #22201D;
+  /* --- MONARCH SANDSTONE FOUNDATION --- */
+  --color-pageBackground: #F9F7F2; 
+  --color-sidebarBackground: #F4F1E9; 
+  
+  /* --- WARMER CONTENT & FORMS --- */
+  --color-background: #FFFEFC; 
+  --color-tableBackground: #FFFEFC;
+  --color-formInputBackground: #FFFEFC;
+  --color-formInputText: #22201D;
+  --color-formInputBorder: #EDE7DE;
+  --color-formInputBackgroundSelected: #FFF1EA;
+  --color-formInputTextPlaceholder: #9E9990;
+
+  /* --- SIDEBAR & ACCENTS --- */
+  --color-sidebarBudgetName: #22201D; 
   --color-sidebarItemText: #22201D;
-  --color-pageTextSubdued: #4B5563;
+  --color-sidebarItemTextSelected: #F35B16;
+  --color-sidebarItemBackgroundSelected: #FFFEFC;
+  --color-sidebarItemBackgroundHover: #EDE7DE;
+  /* Fixed the purple indicator line/accent */
+  --color-sidebarItemAccentSelected: #F35B16; 
 
-  /* --- PAGE STRUCTURE --- */
-  --color-pageBackground: #F7F7F7; 
-  --color-background: #FFFFFF;
-  --color-tableBackground: #FFFFFF;
+  /* --- PILLS & TAGS --- */
+  --color-pillTextHighlighted: #F35B16; 
+  --color-pillBackgroundHighlighted: #FFF1EA;
+  --color-pillText: #4B5563;
+  --color-pillBackground: #EAE5DB;
 
-  /* --- PURPLE & BORDER HIGHLIGHTS --- */
-  --color-tableBorderHover: #F35B16; /* Monarch Flamingo Orange */
+  /* --- INTERACTIVE HIGHLIGHTS --- */
+  --color-tableBorderHover: #F35B16;
   --color-tableBorderSelected: #F35B16;
   --color-accentBorder: #F35B16;
   --color-borderFocused: #F35B16;
-  --color-accentBackground: #FFEDE5;
+  --color-accentBackground: #FFF1EA; 
   --color-accentText: #F35B16;
   
   /* --- TABLE & BUDGET ROWS --- */
-  --color-tableRowBackgroundHover: #F9FAFB;
-  --color-tableRowBackgroundSelected: #FFEDE5;
-  --color-tableRowBackgroundHighlight: #FFEDE5;
-  --color-tableBorder: #EEEEEE;
+  --color-tableRowBackgroundHover: #F7F3EB; 
+  --color-tableRowBackgroundSelected: #FFF1EA;
+  --color-tableRowBackgroundHighlight: #FFF1EA;
+  --color-tableBorder: #EDE7DE; 
 
-  /* --- SIDEBAR --- */
-  --color-sidebarBackground: #F1F1F1;
-  --color-sidebarItemTextSelected: #F35B16;
-  --color-sidebarItemBackgroundSelected: #FFFFFF;
-  --color-sidebarItemBackgroundHover: #E5E7EB;
+  /* --- MOBILE BRANDING --- */
+  --color-mobileHeaderBackground: #F35B16; 
+  --color-mobileHeaderText: #FFFFFF;
+  --color-mobilePageBackground: #F9F7F2;
+  --color-mobileNavBackground: #FFFEFC;
+  --color-mobileNavTextSelected: #F35B16;
 
-  /* --- BRAND ACCENTS --- */
+  /* --- BRAND COLORS --- */
   --color-buttonPrimaryBackground: #F35B16;
   --color-buttonPrimaryText: #FFFFFF;
-  --color-buttonPrimaryBackgroundHover: #D84E12;
-  
   --color-pageTextPositive: #1B8366;
   --color-pageTextNegative: #E16259;
   --color-pageTextLink: #F35B16;
